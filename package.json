@@ -1,0 +1,17 @@
+{
+    "name": "Cors Proxy",
+    "description": "Cors proxy",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "build": "ncc build server.js -o dist"
+      },
+    "dependencies": {
+        "body-parser": "~1.5.2",
+        "express": "~4.4.3",
+        "request": "~2.36.0"
+    },
+    "devDependencies": {
+        "@vercel/ncc": "^0.36.1"
+    }
+}
